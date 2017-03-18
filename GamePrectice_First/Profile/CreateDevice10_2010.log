@@ -1,0 +1,39 @@
+﻿  ICollisionAbleObejct.cpp
+  Input.cpp
+  IScene.cpp
+  ObjectManager.cpp
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\ObjectManager.h(33): error C2027: 정의되지 않은 형식 'GameObject'을(를) 사용했습니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\ObjectManager.h(4): note: 'GameObject' 선언을 참조하십시오.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\ObjectManager.h(33): error C2228: '.m_Layer' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+ObjectManager.cpp(26): error C2572: 'ObjectManager::PopObject': 기본 인수 재정의. 매개 변수 1
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\ObjectManager.h(37): note: 'ObjectManager::PopObject' 선언을 참조하십시오.
+  Player.cpp
+  SceneManager.cpp
+SceneManager.cpp(22): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [20]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  SceneManager.cpp(22): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+SceneManager.cpp(40): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [18]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  SceneManager.cpp(40): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  TestScene.cpp
+  XScrollingObject.cpp
+XScrollingObject.cpp(30): warning C4100: 'obj': 참조되지 않은 정식 매개 변수입니다.
+  BitmapDataManager.cpp
+BitmapDataManager.cpp(37): error C2664: 'HRESULT D3DXCreateTextureFromFileExW(LPDIRECT3DDEVICE9,LPCWSTR,UINT,UINT,UINT,DWORD,D3DFORMAT,D3DPOOL,DWORD,DWORD,D3DCOLOR,D3DXIMAGE_INFO *,PALETTEENTRY *,LPDIRECT3DTEXTURE9 *)': 인수 2을(를) 'const char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  BitmapDataManager.cpp(37): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+BitmapDataManager.cpp(39): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [22]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  BitmapDataManager.cpp(39): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+BitmapDataManager.cpp(55): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [22]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  BitmapDataManager.cpp(55): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+BitmapDataManager.cpp(66): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [22]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  BitmapDataManager.cpp(66): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  Game.cpp
+  GameObject.cpp
+  IGameObject.cpp
+  main.cpp
+  D3DApp.cpp
+D3DApp.cpp(44): error C2440: '초기화 중': 'const char [13]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  D3DApp.cpp(44): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+D3DApp.cpp(50): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': 인수 2을(를) 'const char [13]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  D3DApp.cpp(50): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+D3DApp.cpp(136): error C2664: 'BOOL UnregisterClassW(LPCWSTR,HINSTANCE)': 인수 1을(를) 'const char [13]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  D3DApp.cpp(136): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+  Texture.cpp

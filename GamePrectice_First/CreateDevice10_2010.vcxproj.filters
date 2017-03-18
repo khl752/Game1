@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{f91f7d1a-8c64-4fed-8e74-390e9f69dfae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{5f98b3ae-9c72-4d7e-89f4-0afc32503e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{22ff9c55-7d45-48f4-85b5-f75c69205611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\SceneObject">
+      <UniqueIdentifier>{cc6041db-1cb8-490e-8ac3-f82825cb415d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\SceneObject\Header">
+      <UniqueIdentifier>{2ba947f2-bea0-4b8a-9e0d-fd93e4507331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\SceneObject\Source">
+      <UniqueIdentifier>{b9f9eb20-3009-411e-95f1-8ec08d7cfef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\_Header">
+      <UniqueIdentifier>{5ecfeacb-a27e-4026-b929-d2bde5726d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\_Source">
+      <UniqueIdentifier>{94d20e0e-6862-44ac-9aea-beaa95751020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\_Header">
+      <UniqueIdentifier>{44248a95-85e9-426b-92f2-2896a3975cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\_Source">
+      <UniqueIdentifier>{36008b51-98ef-49dc-8502-3a85cf76cd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\_Header">
+      <UniqueIdentifier>{0b3c5e91-29de-4aaf-bc34-35fa3aa64cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\_Source">
+      <UniqueIdentifier>{48a80a78-a731-4aef-8292-a86337aeac6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..">
+      <UniqueIdentifier>{d8ac260f-408e-4579-b6c4-1c7bcb02b24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Weapon">
+      <UniqueIdentifier>{a1b13b6e-fa7e-4ecd-aa43-07968ddefc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Weapon\Player">
+      <UniqueIdentifier>{188c009c-8ee5-401d-bb1a-6c8c77a8fbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Weapon\Enemy">
+      <UniqueIdentifier>{fa36462b-34f4-4356-8acc-2865fb8d9d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Bullet">
+      <UniqueIdentifier>{e238a9b6-f730-47e3-a897-e45ae3c4c338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Bullet\Player">
+      <UniqueIdentifier>{2e86e63d-debd-4841-a4df-0ef32c9d2d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Bullet\Enemy">
+      <UniqueIdentifier>{7dc754fe-c8f6-4547-a2bb-1ecfa9aded33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Bullet\Player\Source">
+      <UniqueIdentifier>{bc741bc1-10c4-4158-82df-f6e1d049d312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Bullet\Player\Header">
+      <UniqueIdentifier>{80ba12a4-d58a-4df3-b3e5-bd195b0cdf97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\ModuleClass">
+      <UniqueIdentifier>{aa320201-27cd-46c6-9165-5cf2a044c2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\ModuleClass\Source">
+      <UniqueIdentifier>{9d6ec1ea-491d-4405-a261-66bcc2850051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\ModuleClass\Header">
+      <UniqueIdentifier>{3d3d4f5d-1ce1-4680-90e4-c2bf0ecdfdff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Weapon\Enemy\Header">
+      <UniqueIdentifier>{249be9da-60ec-46ca-9afd-27c4beb3e100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Weapon\Enemy\Soruce">
+      <UniqueIdentifier>{261a98a6-90af-4833-89c0-8f31a67a2221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Weapon\Player\Header">
+      <UniqueIdentifier>{43f41f7a-2b2b-409a-8f20-ad1aa4c9c858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Making..\Weapon\Player\Soruce">
+      <UniqueIdentifier>{74592b93-f47d-43d7-ae04-bb377a26164c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DApp.cpp">
+      <Filter>Base\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Base\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Base\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapDataManager.cpp">
+      <Filter>Manager\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>GameObject\SceneObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameObject.cpp">
+      <Filter>GameObject\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="XScrollingObject.cpp">
+      <Filter>GameObject\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionAbleObejct.cpp">
+      <Filter>GameObject\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Base\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IWeapon.cpp">
+      <Filter>Making..\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Making..\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DathAbleObject.cpp">
+      <Filter>Making..\ModuleClass\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Making..</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Making..</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWeapon.cpp" />
+    <ClCompile Include="BasicPWeapon.cpp" />
+    <ClCompile Include="WeaponSocket.cpp" />
+    <ClCompile Include="BasicBullet.cpp">
+      <Filter>Making..\Bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3DApp.h">
+      <Filter>Base\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Base\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Base\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapDataManager.h">
+      <Filter>Manager\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>GameObject\SceneObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>GameObject\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="XScrollingObject.h">
+      <Filter>GameObject\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionAbleObejct.h">
+      <Filter>GameObject\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Base\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IWeapon.h">
+      <Filter>Making..\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Making..\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DathAbleObject.h">
+      <Filter>Making..\ModuleClass\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Making..</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Making..</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWeapon.h" />
+    <ClInclude Include="BasicPWeapon.h" />
+    <ClInclude Include="WeaponSocket.h" />
+    <ClInclude Include="BasicBullet.h">
+      <Filter>Making..\Bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="CreateDevice10.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

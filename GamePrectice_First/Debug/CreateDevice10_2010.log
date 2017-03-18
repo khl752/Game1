@@ -1,0 +1,7 @@
+﻿  Player.cpp
+c:\users\gamedev\desktop\kimhanil\gamedirectory\gameprectice_first\player.cpp(77): warning C4100: 'obj': 참조되지 않은 정식 매개 변수입니다.
+c:\users\gamedev\desktop\kimhanil\gamedirectory\gameprectice_first\player.cpp(88): warning C4100: 'obj': 참조되지 않은 정식 매개 변수입니다.
+  WeaponSocket.cpp
+  코드를 생성하고 있습니다...
+  CreateDevice10_2010.vcxproj -> C:\Users\GameDev\Desktop\Kimhanil\GameDirectory\GamePrectice_First\Debug\CreateDevice10.exe
+  CreateDevice10_2010.vcxproj -> C:\Users\GameDev\Desktop\Kimhanil\GameDirectory\GamePrectice_First\Debug\CreateDevice10.pdb (Full PDB)
